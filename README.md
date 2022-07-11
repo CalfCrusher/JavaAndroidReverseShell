@@ -1,4 +1,4 @@
-# Pure Java Android Reverse Shell
+# Pure Java Android Reverse Shell (with SSL Support)
 
 Original Tutorial: https://malacupa.com/2018/10/25/android-command-line-reverse-shell.html
 
