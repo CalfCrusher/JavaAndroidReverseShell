@@ -2,7 +2,8 @@
 
 Original Tutorial: https://malacupa.com/2018/10/25/android-command-line-reverse-shell.html
 
-## On Attacker machine - Linux for example -  ! you need android sdk installed and build-tools also 
+## On Attacker machine - Linux for example -
+### (you need android sdk installed and build-tools also) 
 
 #### Compile Java source code in bytecode (if fails for "class error not supported", change the release!)
 `javac --release 17 AndroidReverseShell.java`
