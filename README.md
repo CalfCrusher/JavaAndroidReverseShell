@@ -7,7 +7,7 @@ UPDATED WITH SSL SUPPORT https://github.com/CalfCrusher/JavaAndroidReverseShell/
 ## On Attacker machine - Linux for example -
 ### (you need android sdk installed and build-tools also) 
 
-#### Compile Java source code in bytecode (if fails for "class error not supported", change the release!)
+#### Compile Java source code to bytecode (if fails for "class error not supported", change the release!)
 `javac --release 17 AndroidReverseShell.java`
 
 #### Convert to DEX format 
