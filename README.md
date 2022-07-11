@@ -9,7 +9,7 @@ Original Tutorial: https://malacupa.com/2018/10/25/android-command-line-reverse-
 `javac --release 17 AndroidReverseShell.java`
 
 #### Convert to DEX format 
-`~/Library/Android/sdk/build-tools/33.0.0/d8 --output classes.dex AndroidReverseShell.class`
+`~/Library/Android/sdk/build-tools/33.0.0/d8 AndroidReverseShell.class`
 
 #### Create fake JAR file
 `zip reverse.jar classes.dex`
