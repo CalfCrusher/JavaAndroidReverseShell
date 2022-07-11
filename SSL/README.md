@@ -1,4 +1,4 @@
-## Android Reverse Java Shell with SSL Support
+## Android Reverse Java Shell using SSL Encryption
 
 ## On Attacker machine - Linux for example -
 ### (you need android sdk installed and build-tools also) 
