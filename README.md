@@ -33,7 +33,7 @@ You can of course create a pure .apk package and sign it using Android Studio or
 
 ## Todo
 
-. Support for SSL encryption
+~~Support for SSL encryption
 
 ## Disclaimer:
 
