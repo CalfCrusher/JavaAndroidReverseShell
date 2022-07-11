@@ -35,6 +35,6 @@ You can of course create a pure .apk package and sign it using Android Studio or
 ## Disclaimer:
 
 For educational use only !
-Java code was taken from https://gist.github.com/malacupa/3a98285ad67c98386f7e798b25ef808c#file-reverseshell-java
-<br />All credits goes to original developer
+
+Java code was taken from https://gist.github.com/malacupa/3a98285ad67c98386f7e798b25ef808c#file-reverseshell-java. All credits goes to original developer
 
