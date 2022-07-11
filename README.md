@@ -28,6 +28,10 @@ You can just use DalvikVM bash script from Termux:
 
 You can of course create a pure .apk package and sign it using Android Studio or apktool and apksigner and so on...
 
+## Todo
+
+. Support for SSL encryption
+
 ## Disclaimer:
 
 *This is for educational use only.*
