@@ -26,3 +26,7 @@ You can just use dalvikvm bash script from Termux:
 (pay attention to final "Shell" this must be same class name used before, otherwise it fails!)
 
 You can of course create a pure .apk package and sign it using Android Studio or apktool and apksigner.
+
+## Credits
+
+Inspired from: https://gist.github.com/FrankSpierings/e330e3aea3152f816c202b883887dd60
