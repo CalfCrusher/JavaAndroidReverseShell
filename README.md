@@ -2,7 +2,7 @@
 
 Original Tutorial: https://malacupa.com/2018/10/25/android-command-line-reverse-shell.html
 
-UPDATE WITH SSL SUPPORT https://github.com/CalfCrusher/JavaAndroidReverseShell/tree/main/SSL
+UPDATED WITH SSL SUPPORT https://github.com/CalfCrusher/JavaAndroidReverseShell/tree/main/SSL
 
 ## On Attacker machine - Linux for example -
 ### (you need android sdk installed and build-tools also) 
