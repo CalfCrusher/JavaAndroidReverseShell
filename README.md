@@ -32,7 +32,8 @@ and then run the reverse shell using dalvikvm from Termux:
 
 ## Todo
 
-~~Support for SSL encryption~~
+~~Support for SSL encryption~~<br/>
+Bash Script to automatize everything
 
 ## Disclaimer:
 
