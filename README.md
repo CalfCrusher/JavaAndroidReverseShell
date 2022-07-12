@@ -30,8 +30,6 @@ and then run the reverse shell using dalvikvm from Termux:
 
 `cd /system/bin/ && ./dalvikvm -cp /sdcard/reverse.jar AndroidReverseShell`
 
-You can of course create a pure .apk package and sign it using Android Studio or apktool and apksigner.
-
 ## Todo
 
 ~~Support for SSL encryption~~
